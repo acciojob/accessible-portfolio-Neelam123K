@@ -8,9 +8,43 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	 <nav role="navigation" aria-label="Main navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
+	<header>
+        <h1 role="heading" aria-level="1">John Doe's Portfolio</h1>
+    </header>
+
+    <!-- About section with ARIA roles for image and description -->
+    <section id="about">
+        <img role="img" src="profile.jpg" alt="Portrait of John Doe" width="200" height="200">
+        <p>
+            Hello! I'm Nelam, a passionate web developer with expertise in creating accessible and visually engaging web applications. 
+            I specialize in front-end development, focusing on accessibility and responsive design.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2 role="heading" aria-level="2">My Projects</h2>
+        <ul role="list">
+            <li role="listitem">Responsive Web Design Project</li>
+            <li role="listitem">E-commerce Application</li>
+            <li role="listitem">Portfolio Website</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2 role="heading" aria-level="2">Contact Me</h2>
+        <p>If you'd like to collaborate, please feel free to reach out via email or LinkedIn.</p>
+    </section>
+
+	 <script type="text/javascript" src="./script.js">
+</script>
 </body>
 
 </html>
